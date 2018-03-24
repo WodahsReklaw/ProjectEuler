@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dc/Projects/ProjectEuler/src/problem54/problem54_2.cpp
+algorithm
+-
+vector
+-
+string
+-
+iostream
+-
+unordered_map
+-
+

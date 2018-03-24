@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/permute.h
+algorithm
+-
+vector
+-
+string
+-
+
+../include/primes.h
+cstdint
+-
+vector
+-
+functional
+-
+
+/home/dc/Projects/ProjectEuler/src/problem41/problem41.cpp
+functional
+-
+iostream
+-
+unordered_set
+-
+cstdint
+-
+string
+-
+vector
+-
+primes.h
+/home/dc/Projects/ProjectEuler/src/problem41/primes.h
+permute.h
+/home/dc/Projects/ProjectEuler/src/problem41/permute.h
+

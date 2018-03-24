@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/primes.h
+cstdint
+-
+vector
+-
+functional
+-
+
+/home/dc/Projects/ProjectEuler/src/problem3/problem3.cpp
+cmath
+-
+cstdlib
+-
+cstdint
+-
+iostream
+-
+primes.h
+-
+

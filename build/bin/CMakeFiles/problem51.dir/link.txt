@@ -1,0 +1,1 @@
+/usr/bin/clang++   -g -Wall -std=c++17 -O3   CMakeFiles/problem51.dir/__/src/problem51/problem51.cpp.o  -o problem51 ../libproject_lib.a 
