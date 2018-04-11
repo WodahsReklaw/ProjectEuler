@@ -14,6 +14,7 @@ add_executable(problem54 ${PROJECT_SOURCE_DIR}/problem54/problem54_2.cpp)
 add_executable(problem58 ${PROJECT_SOURCE_DIR}/problem58/problem58.cpp)
 add_executable(problem59 ${PROJECT_SOURCE_DIR}/problem59/problem59.cpp)
 add_executable(problem61 ${PROJECT_SOURCE_DIR}/problem61/problem61.cpp)
+add_executable(problem62 ${PROJECT_SOURCE_DIR}/problem62/problem62.cpp)
 
 target_link_libraries(problem1 project_lib)
 target_link_libraries(problem2 project_lib)
